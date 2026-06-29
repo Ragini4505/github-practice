@@ -16,3 +16,6 @@ jobs:
 
       - name: Say hello
         run: echo "Hello from GitHub Actions!"
+
+      - name: List files
+        run: ls -la
